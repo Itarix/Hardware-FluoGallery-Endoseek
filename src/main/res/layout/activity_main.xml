@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <!--Button to open the image selector-->
+    <!--ImageView to preview the selected image-->
+
+    <Button
+        android:id="@+id/BSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="SELECT IMAGE"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/IVPreviewImage"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/BSelectImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/testy_img"
+        android:layout_below="@+id/IVPreviewImage"
+        android:layout_marginLeft="20px"
+        android:padding="20px"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        android:layout_width="250dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/testy_img"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
