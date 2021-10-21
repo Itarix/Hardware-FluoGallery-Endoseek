@@ -1,4 +1,5 @@
 # Hardware-FluoGallery-Endoseek
+Created by iGEM GO Paris Saclay 2021
 
 During the pandemic, the world was faced with the fact that medical resources were insufficient for taking tests and other manipulations. This problem especially affected people suffering from diseases that do not require emergency treatment.
 As a partial solution to this problem, we propose a technology for testing patients for endometriosis, which does not include the amplification stage. (You can learn more about this on the project description page)
